@@ -1,3 +1,5 @@
+![AI Mine](https://raw.github.com/pepa65/aimine/main/aimine.png "AI Mine")
+
 # AI Mine
 https://github.com/pepa65/aimine
 
