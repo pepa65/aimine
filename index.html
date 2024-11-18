@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <meta lang="en">
 <title>AI Mine</title>
 <meta name="description" content="AI Mine does the logic, you do the luck">
@@ -70,7 +70,7 @@ input#ai_speed {width:100%; height:1em; margin-bottom:1em}
 	</div>
 </div>
 <div class="nav">
-	<p>Level:<br>
+	<p>Level:
 	<select id="level_selector">
 		<option value="8:8:10">Beginner: 8x8, 10 mines (12%)
 		<option value="16:16:40">Intermediate: 16x16, 40 mines (16%)
@@ -87,8 +87,8 @@ input#ai_speed {width:100%; height:1em; margin-bottom:1em}
 		<option value="100:100:3000">Alien II: 100x100, 3000 mines (30%)
 		<option value="68:48:777">Mine2000: 68x48, 777 mines (24%)
 	</select>
-	<p>AI speed:<br>
-	<input type="range" id="ai_speed" min="1" value="1" max="100">
+	<p>AI speed
+	<input type="range" id="ai_speed" min="1" value="100" max="100">
 </div>
 <div class="footer">
 	<p><a href="https://github.com/pepa65/aimine">FAQ</a>
@@ -114,7 +114,7 @@ const createUI = () => {
 		elemBoard.style.width = "";
 		elemField.style.transform = "";
 		const scale = Math.min(
-			elemButton.offsetWidth / 25,
+			elemButton.offsetWidth / 24,
 			elemDashboard.offsetWidth / elemField.offsetWidth,
 			(window.innerHeight - elemDashboard.offsetHeight) / elemField.offsetHeight,
 		);
